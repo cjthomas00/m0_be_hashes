@@ -23,13 +23,13 @@ puts foods.values
 #
 ## Write code that prints the value of the second food of the foods variable 
 ## you created above:
-puts foods["grapes"]
+puts foods[:"grapes"]
 #
 #
 #
 ## Write code that adds a food to the foods hash. 
 ## Then, print the updated hash:
-#foods["strawberries"] = true
+foods["strawberries"] = true
 #
 puts foods
 
